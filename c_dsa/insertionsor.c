@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-int selectionsort(int arr[],int n)
+int insertionsort(int arr[],int n)
 {
     int i,j,key;
     for (i=1;i<n;i++)
@@ -25,7 +25,7 @@ int main()
         printf("%d ",arr[i]);
     }
     
-    selectionsort(arr,n);
+    insertionsort(arr,n);
     
     printf("\nThe sorted elements:\n");
     for(i=0;i<n;i++)
